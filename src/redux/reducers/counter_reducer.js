@@ -1,4 +1,4 @@
-import { INCREMENT,DECREMENT } from "./action_types";
+import { INCREMENT,DECREMENT } from "../action_types";
 let initState = 0
 export default function opera(preState = initState,action) {
   let {type,data} = action
